@@ -81,7 +81,7 @@ class DataDiri extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/profile.jpg',
+              'assets/images/profile.png',
               width: 200,
               height: 200,
             ),
@@ -116,7 +116,7 @@ class DataDiri extends StatelessWidget {
                   DataCell(Text('123200084')),
                   DataCell(Text('Rafli Irfansyah Kusumawardhana')),
                   DataCell(Text('IF-B')),
-                  DataCell(Text('Olahraga, mendengarkan musik, dan bermain game'))
+                  DataCell(Text('Ngoding'))
                 ],
                 ),
               ],
@@ -225,6 +225,7 @@ class _TriangleState extends State<Triangle> {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            const SizedBox(height: 16.0),
             Text(
               "Keliling Segitiga: $_kelilingSegitiga",
               style: const TextStyle(
